@@ -77,4 +77,28 @@ export class Node {
         }
         return pathFromRoot.reverse();
     }
+
+    /**
+     * Fig. 3.10
+     * @param problem
+     * @param action
+     * @returns Node
+     */
+    childNode(problem, action) {
+        let next = problem.result(this.state, action);
+        return Node(next, this, action, problem.pathCost(this.pathCost, this.state, action, next));
+    }
+
+    /**
+     * List the nodes reachable in one step from this node.
+     * @param problem
+     * @returns {Array}
+     */
+    expand(problem) {
+        let reachable = [];
+        for (var action in problem.actions(this.state)) {
+            reachable.push(this.childNode(problem, action));
+        }
+        return reachable;
+    }
 }
