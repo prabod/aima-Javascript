@@ -7,7 +7,7 @@
  * @returns {*}
  */
 export function treeSearch(problem, frontier) {
-    frontier.append(Node(problem.initial));
+    frontier.push(Node(problem.initial));
 
     while (frontier) {
         let node = frontier.pop();

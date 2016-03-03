@@ -7,7 +7,7 @@
  * @returns {*}
  */
 export function graphSearch(problem, frontier) {
-    frontier.append(Node(problem.initial));
+    frontier.push(Node(problem.initial));
     var explored = new Set();
     while (frontier) {
         let node = frontier.pop();
