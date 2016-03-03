@@ -20,6 +20,7 @@
  *
  * @author Prabod Rathnayaka
  */
+
 export class Node {
     /**
      * @constructor construct the Node class with
