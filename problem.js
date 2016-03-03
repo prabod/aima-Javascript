@@ -4,6 +4,7 @@
  * constructor, goalTest, and pathCost. Then you will create instances
  * of your subclass and solve them with the various search functions
  */
+
 export class Problem {
     /**
      * The constructor specifies the initial state, and possibly a goal
