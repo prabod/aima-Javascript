@@ -3,7 +3,7 @@
  */
 
 import * as treeSearch from 'treeSearch';
-import * as FIFOQueue from 'lib/FIFOQueue';
+import * as FIFOQueue from '../lib/FIFOQueue';
 
 /**
  * Search the shallowest nodes in the search tree first.

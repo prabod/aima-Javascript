@@ -3,7 +3,7 @@
  */
 
 import * as treeSearch from 'treeSearch';
-import * as stack from 'lib/stack';
+import * as stack from '../lib/stack';
 
 /**
  * Search the deepest nodes in the search tree first.

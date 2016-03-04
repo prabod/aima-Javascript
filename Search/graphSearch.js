@@ -1,4 +1,4 @@
-import * as node from 'node';
+import * as node from '../node';
 /**
  * Search through the successors of a problem to find a goal.
  * The argument frontier should be an empty queue.

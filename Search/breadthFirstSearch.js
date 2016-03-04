@@ -1,7 +1,7 @@
-import * as node from 'node';
-import * as queue from 'lib/FIFOQueue';
+import * as node from '../node';
+import * as queue from '../lib/FIFOQueue';
 /**
- *
+ * FIG 3.11
  * @param problem
  * @returns {*}
  */
