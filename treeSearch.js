@@ -1,3 +1,4 @@
+import * as node from 'node';
 /**
  * Search through the successors of a problem to find a goal.
  * The argument frontier should be an empty queue.
@@ -7,9 +8,9 @@
  * @returns {*}
  */
 export function treeSearch(problem, frontier) {
-    frontier.push(Node(problem.initial));
+    frontier.push(new node.Node(problem.initial));
 
-    while (frontier) {
+    while (frontier.size() > 0) {
         let node = frontier.pop();
         if (problem.goalTest(node.state)) {
             return node;
