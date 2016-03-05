@@ -30,8 +30,19 @@ export class Node {
         this.parent = parent;
         this.action = action;
         this.pathCost = pathCost;
+        if (parent != null) {
+            this.depth = parent.depth() + 1;
+        }
+        else this.depth = 1;
     }
 
+    /**
+     *
+     * @returns {Node.depth}
+     */
+    depth() {
+        return this.depth;
+    }
     /**
      *
      * @return the state in the state space to which the node corresponds.
