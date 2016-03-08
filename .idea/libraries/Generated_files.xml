@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/grunt-babel/tasks/babel-compiled.js" />
+        <item url="file://$PROJECT_DIR$/depthFirstGraphSearch-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/grunt-babel/tasks/babel-compiled.js" />
+      <root url="file://$PROJECT_DIR$/depthFirstGraphSearch-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
