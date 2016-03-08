@@ -1,7 +1,7 @@
 {
   "name": "aima-javascript",
   "version": "1.0.0",
-  "description": "Java implementation of algorithms from Norvig And Russell's \"Artificial Intelligence - A Modern Approach 4th Edition.\"",
+  "description": "JavaScript implementation of algorithms from Norvig And Russell's \"Artificial Intelligence - A Modern Approach 4th Edition.\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
